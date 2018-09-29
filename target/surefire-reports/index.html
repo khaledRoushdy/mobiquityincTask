@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-SmokeTests">
+              <span class="suite-name border-failed">SmokeTests</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-SmokeTests">
+                    <span>C:\Users\khaled.roushdy\eclipse-workspace\CafeTownsend\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-SmokeTests">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-SmokeTests">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-SmokeTests">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-SmokeTests">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-SmokeTests">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-SmokeTests">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods, 2 failed,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SmokeTests" class="hide-methods failed suite-SmokeTests"> (hide)</a> <!-- hide-methods failed suite-SmokeTests -->
+                      <a href="#" panel-name="suite-SmokeTests" class="show-methods failed suite-SmokeTests"> (show)</a> <!-- show-methods failed suite-SmokeTests -->
+                    </span>
+                    <div class="method-list-content failed suite-SmokeTests">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SmokeTests" title="com.mobiquityinc.cafetownsend.tests.DeleteEmployeesTests" hash-for-method="shouldDeleteAnExistingEmployeeFromHomePage">shouldDeleteAnExistingEmployeeFromHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SmokeTests" title="com.mobiquityinc.cafetownsend.tests.EditEmployeesTests" hash-for-method="shouldnotUpdateEmployeesWithInvalidStartDate">shouldnotUpdateEmployeesWithInvalidStartDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SmokeTests -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SmokeTests" class="hide-methods passed suite-SmokeTests"> (hide)</a> <!-- hide-methods passed suite-SmokeTests -->
+                      <a href="#" panel-name="suite-SmokeTests" class="show-methods passed suite-SmokeTests"> (show)</a> <!-- show-methods passed suite-SmokeTests -->
+                    </span>
+                    <div class="method-list-content passed suite-SmokeTests">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SmokeTests" title="com.mobiquityinc.cafetownsend.tests.CreateEmployeesTests" hash-for-method="shouldCancelAddingNewEmployee">shouldCancelAddingNewEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SmokeTests" title="com.mobiquityinc.cafetownsend.tests.CreateEmployeesTests" hash-for-method="shouldCreateNewEmployeeSuccessfully">shouldCreateNewEmployeeSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SmokeTests" title="com.mobiquityinc.cafetownsend.tests.DeleteEmployeesTests" hash-for-method="shouldDeleteAnExistingEmployeeFromEditingAnEmployee">shouldDeleteAnExistingEmployeeFromEditingAnEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SmokeTests" title="com.mobiquityinc.cafetownsend.tests.LoginTests" hash-for-method="shouldLoginWithValidCredentials">shouldLoginWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SmokeTests" title="com.mobiquityinc.cafetownsend.tests.LogoutTests" hash-for-method="shouldLogoutSuccessfully">shouldLogoutSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SmokeTests" title="com.mobiquityinc.cafetownsend.tests.LoginTests" hash-for-method="shouldNotLoginWithInvalidCredentials">shouldNotLoginWithInvalidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SmokeTests" title="com.mobiquityinc.cafetownsend.tests.EmployeesDataTests" hash-for-method="shouldTheApplicationGoToHomePageAfterSelectingBackButton">shouldTheApplicationGoToHomePageAfterSelectingBackButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SmokeTests" title="com.mobiquityinc.cafetownsend.tests.EmployeesDataTests" hash-for-method="shouldTheDataOfTheEmployeeIsShownCorrectly">shouldTheDataOfTheEmployeeIsShownCorrectly</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SmokeTests" title="com.mobiquityinc.cafetownsend.tests.EditEmployeesTests" hash-for-method="shouldUpdateEmployeesDataSuccessfully">shouldUpdateEmployeesDataSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SmokeTests" title="com.mobiquityinc.cafetownsend.tests.CreateEmployeesTests" hash-for-method="shouldnotAddEmployeeWithInvalidDateFormat">shouldnotAddEmployeeWithInvalidDateFormat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SmokeTests -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SmokeTests" class="panel SmokeTests">
+          <div class="suite-SmokeTests-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.mobiquityinc.cafetownsend.tests.EditEmployeesTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldnotUpdateEmployeesWithInvalidStartDate">
+                  </a> <!-- shouldnotUpdateEmployeesWithInvalidStartDate -->
+                  <span class="method-name">shouldnotUpdateEmployeesWithInvalidStartDate</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;KROSHDY-LT-9852&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\KHALED~1.ROU\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 0be17e53e7fe07d4c8aaaf0674486c37
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.mobiquityinc.cafetownsend.utilities.Utilities.isAlertApperared(Utilities.java:44)
+	at com.mobiquityinc.cafetownsend.pages.EditEmployeePage.getAlertText(EditEmployeePage.java:81)
+	at com.mobiquityinc.cafetownsend.tests.EditEmployeesTests.shouldnotUpdateEmployeesWithInvalidStartDate(EditEmployeesTests.java:53)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmokeTests-class-failed -->
+          <div class="suite-SmokeTests-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.mobiquityinc.cafetownsend.tests.DeleteEmployeesTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldDeleteAnExistingEmployeeFromHomePage">
+                  </a> <!-- shouldDeleteAnExistingEmployeeFromHomePage -->
+                  <span class="method-name">shouldDeleteAnExistingEmployeeFromHomePage</span>
+                  <div class="stack-trace">java.lang.AssertionError: The employee is not deleted successfully expected [327] but found [326]
+	at com.mobiquityinc.cafetownsend.tests.DeleteEmployeesTests.shouldDeleteAnExistingEmployeeFromHomePage(DeleteEmployeesTests.java:39)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmokeTests-class-failed -->
+          <div class="suite-SmokeTests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mobiquityinc.cafetownsend.tests.LogoutTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldLogoutSuccessfully">
+                  </a> <!-- shouldLogoutSuccessfully -->
+                  <span class="method-name">shouldLogoutSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmokeTests-class-passed -->
+          <div class="suite-SmokeTests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mobiquityinc.cafetownsend.tests.EmployeesDataTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldTheApplicationGoToHomePageAfterSelectingBackButton">
+                  </a> <!-- shouldTheApplicationGoToHomePageAfterSelectingBackButton -->
+                  <span class="method-name">shouldTheApplicationGoToHomePageAfterSelectingBackButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldTheDataOfTheEmployeeIsShownCorrectly">
+                  </a> <!-- shouldTheDataOfTheEmployeeIsShownCorrectly -->
+                  <span class="method-name">shouldTheDataOfTheEmployeeIsShownCorrectly</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmokeTests-class-passed -->
+          <div class="suite-SmokeTests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mobiquityinc.cafetownsend.tests.EditEmployeesTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldUpdateEmployeesDataSuccessfully">
+                  </a> <!-- shouldUpdateEmployeesDataSuccessfully -->
+                  <span class="method-name">shouldUpdateEmployeesDataSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmokeTests-class-passed -->
+          <div class="suite-SmokeTests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mobiquityinc.cafetownsend.tests.DeleteEmployeesTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldDeleteAnExistingEmployeeFromEditingAnEmployee">
+                  </a> <!-- shouldDeleteAnExistingEmployeeFromEditingAnEmployee -->
+                  <span class="method-name">shouldDeleteAnExistingEmployeeFromEditingAnEmployee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmokeTests-class-passed -->
+          <div class="suite-SmokeTests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mobiquityinc.cafetownsend.tests.LoginTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldLoginWithValidCredentials">
+                  </a> <!-- shouldLoginWithValidCredentials -->
+                  <span class="method-name">shouldLoginWithValidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldNotLoginWithInvalidCredentials">
+                  </a> <!-- shouldNotLoginWithInvalidCredentials -->
+                  <span class="method-name">shouldNotLoginWithInvalidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmokeTests-class-passed -->
+          <div class="suite-SmokeTests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mobiquityinc.cafetownsend.tests.CreateEmployeesTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldCancelAddingNewEmployee">
+                  </a> <!-- shouldCancelAddingNewEmployee -->
+                  <span class="method-name">shouldCancelAddingNewEmployee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldCreateNewEmployeeSuccessfully">
+                  </a> <!-- shouldCreateNewEmployeeSuccessfully -->
+                  <span class="method-name">shouldCreateNewEmployeeSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldnotAddEmployeeWithInvalidDateFormat">
+                  </a> <!-- shouldnotAddEmployeeWithInvalidDateFormat -->
+                  <span class="method-name">shouldnotAddEmployeeWithInvalidDateFormat</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmokeTests-class-passed -->
+        </div> <!-- panel SmokeTests -->
+        <div panel-name="test-xml-SmokeTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\khaled.roushdy\eclipse-workspace\CafeTownsend\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;-1&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;SmokeTests&quot;&gt;
+  &lt;test verbose=&quot;0&quot; name=&quot;Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.mobiquityinc.cafetownsend.tests.CreateEmployeesTests&quot;/&gt;
+      &lt;class name=&quot;com.mobiquityinc.cafetownsend.tests.DeleteEmployeesTests&quot;/&gt;
+      &lt;class name=&quot;com.mobiquityinc.cafetownsend.tests.EditEmployeesTests&quot;/&gt;
+      &lt;class name=&quot;com.mobiquityinc.cafetownsend.tests.EmployeesDataTests&quot;/&gt;
+      &lt;class name=&quot;com.mobiquityinc.cafetownsend.tests.LoginTests&quot;/&gt;
+      &lt;class name=&quot;com.mobiquityinc.cafetownsend.tests.LogoutTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Tests --&gt;
+&lt;/suite&gt; &lt;!-- SmokeTests --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SmokeTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SmokeTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Tests (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SmokeTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SmokeTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SmokeTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SmokeTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SmokeTests');
+function tableData_SmokeTests() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'shouldnotUpdateEmployeesWithInvalidStartDate')
+data.setCell(0, 2, 'com.mobiquityinc.cafetownsend.tests.EditEmployeesTests')
+data.setCell(0, 3, 43323);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'shouldDeleteAnExistingEmployeeFromEditingAnEmployee')
+data.setCell(1, 2, 'com.mobiquityinc.cafetownsend.tests.DeleteEmployeesTests')
+data.setCell(1, 3, 17637);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'shouldCancelAddingNewEmployee')
+data.setCell(2, 2, 'com.mobiquityinc.cafetownsend.tests.CreateEmployeesTests')
+data.setCell(2, 3, 15522);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'shouldDeleteAnExistingEmployeeFromHomePage')
+data.setCell(3, 2, 'com.mobiquityinc.cafetownsend.tests.DeleteEmployeesTests')
+data.setCell(3, 3, 12426);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'shouldCreateNewEmployeeSuccessfully')
+data.setCell(4, 2, 'com.mobiquityinc.cafetownsend.tests.CreateEmployeesTests')
+data.setCell(4, 3, 12341);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'shouldUpdateEmployeesDataSuccessfully')
+data.setCell(5, 2, 'com.mobiquityinc.cafetownsend.tests.EditEmployeesTests')
+data.setCell(5, 3, 11289);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'shouldTheApplicationGoToHomePageAfterSelectingBackButton')
+data.setCell(6, 2, 'com.mobiquityinc.cafetownsend.tests.EmployeesDataTests')
+data.setCell(6, 3, 8913);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'shouldnotAddEmployeeWithInvalidDateFormat')
+data.setCell(7, 2, 'com.mobiquityinc.cafetownsend.tests.CreateEmployeesTests')
+data.setCell(7, 3, 2629);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'shouldTheDataOfTheEmployeeIsShownCorrectly')
+data.setCell(8, 2, 'com.mobiquityinc.cafetownsend.tests.EmployeesDataTests')
+data.setCell(8, 3, 2254);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'shouldNotLoginWithInvalidCredentials')
+data.setCell(9, 2, 'com.mobiquityinc.cafetownsend.tests.LoginTests')
+data.setCell(9, 3, 838);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'shouldLoginWithValidCredentials')
+data.setCell(10, 2, 'com.mobiquityinc.cafetownsend.tests.LoginTests')
+data.setCell(10, 3, 464);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'shouldLogoutSuccessfully')
+data.setCell(11, 2, 'com.mobiquityinc.cafetownsend.tests.LogoutTests')
+data.setCell(11, 3, 403);
+window.suiteTableData['SmokeTests']= { tableData: data, tableDiv: 'times-div-SmokeTests'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-SmokeTests">
+              </div> <!-- times-div-SmokeTests -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SmokeTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SmokeTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SmokeTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SmokeTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mobiquityinc.cafetownsend.tests.CreateEmployeesTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldCancelAddingNewEmployee</span>
+                <span class="method-start">8755 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">24278 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">24941 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldCreateNewEmployeeSuccessfully</span>
+                <span class="method-start">31408 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">43749 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">44537 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldnotAddEmployeeWithInvalidDateFormat</span>
+                <span class="method-start">51331 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">53960 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mobiquityinc.cafetownsend.tests.DeleteEmployeesTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">54606 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldDeleteAnExistingEmployeeFromEditingAnEmployee</span>
+                <span class="method-start">60170 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">77807 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">78551 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">shouldDeleteAnExistingEmployeeFromHomePage</span>
+                <span class="method-start">84978 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">97430 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mobiquityinc.cafetownsend.tests.EditEmployeesTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">98072 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldUpdateEmployeesDataSuccessfully</span>
+                <span class="method-start">104048 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">115338 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">116034 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">shouldnotUpdateEmployeesWithInvalidStartDate</span>
+                <span class="method-start">122611 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">165936 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mobiquityinc.cafetownsend.tests.EmployeesDataTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">166584 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldTheApplicationGoToHomePageAfterSelectingBackButton</span>
+                <span class="method-start">171998 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">180912 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">181550 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldTheDataOfTheEmployeeIsShownCorrectly</span>
+                <span class="method-start">186930 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">189184 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mobiquityinc.cafetownsend.tests.LoginTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">189863 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldLoginWithValidCredentials</span>
+                <span class="method-start">195486 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">195950 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">196677 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldNotLoginWithInvalidCredentials</span>
+                <span class="method-start">202444 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">203282 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mobiquityinc.cafetownsend.tests.LogoutTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">203942 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldLogoutSuccessfully</span>
+                <span class="method-start">209714 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">210117 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

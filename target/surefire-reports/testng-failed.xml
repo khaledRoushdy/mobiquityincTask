@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [SmokeTests]">
+  <test verbose="0" name="Tests(failed)">
+    <classes>
+      <class name="com.mobiquityinc.cafetownsend.tests.EditEmployeesTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="shouldnotUpdateEmployeesWithInvalidStartDate"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.mobiquityinc.cafetownsend.tests.EditEmployeesTests -->
+      <class name="com.mobiquityinc.cafetownsend.tests.DeleteEmployeesTests">
+        <methods>
+          <include name="shouldDeleteAnExistingEmployeeFromHomePage"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.mobiquityinc.cafetownsend.tests.DeleteEmployeesTests -->
+    </classes>
+  </test> <!-- Tests(failed) -->
+</suite> <!-- Failed suite [SmokeTests] -->

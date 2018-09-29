@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="12" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SmokeTests" duration-ms="210990" started-at="2018-09-29T00:05:11Z" finished-at="2018-09-29T00:08:42Z">
+    <groups>
+    </groups>
+    <test name="Tests" duration-ms="210990" started-at="2018-09-29T00:05:11Z" finished-at="2018-09-29T00:08:42Z">
+      <class name="com.mobiquityinc.cafetownsend.tests.DeleteEmployeesTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.DeleteEmployeesTests@6537cf78]" name="setup" is-config="true" duration-ms="5564" started-at="2018-09-29T02:06:05Z" finished-at="2018-09-29T02:06:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="shouldDeleteAnExistingEmployeeFromEditingAnEmployee()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.DeleteEmployeesTests@6537cf78]" name="shouldDeleteAnExistingEmployeeFromEditingAnEmployee" duration-ms="17637" started-at="2018-09-29T02:06:11Z" finished-at="2018-09-29T02:06:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldDeleteAnExistingEmployeeFromEditingAnEmployee -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.DeleteEmployeesTests@6537cf78]" name="tearDown" is-config="true" duration-ms="743" started-at="2018-09-29T02:06:28Z" finished-at="2018-09-29T02:06:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.DeleteEmployeesTests@6537cf78]" name="setup" is-config="true" duration-ms="6427" started-at="2018-09-29T02:06:29Z" finished-at="2018-09-29T02:06:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="shouldDeleteAnExistingEmployeeFromHomePage()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.DeleteEmployeesTests@6537cf78]" name="shouldDeleteAnExistingEmployeeFromHomePage" duration-ms="12426" started-at="2018-09-29T02:06:36Z" finished-at="2018-09-29T02:06:48Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The employee is not deleted successfully expected [327] but found [326]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The employee is not deleted successfully expected [327] but found [326]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:652)at com.mobiquityinc.cafetownsend.tests.DeleteEmployeesTests.shouldDeleteAnExistingEmployeeFromHomePage(DeleteEmployeesTests.java:39)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldDeleteAnExistingEmployeeFromHomePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.DeleteEmployeesTests@6537cf78]" name="tearDown" is-config="true" duration-ms="642" started-at="2018-09-29T02:06:48Z" finished-at="2018-09-29T02:06:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mobiquityinc.cafetownsend.tests.DeleteEmployeesTests -->
+      <class name="com.mobiquityinc.cafetownsend.tests.LoginTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.LoginTests@366e2eef]" name="setup" is-config="true" duration-ms="5623" started-at="2018-09-29T02:08:20Z" finished-at="2018-09-29T02:08:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="shouldLoginWithValidCredentials()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.LoginTests@366e2eef]" name="shouldLoginWithValidCredentials" duration-ms="464" started-at="2018-09-29T02:08:26Z" finished-at="2018-09-29T02:08:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldLoginWithValidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.LoginTests@366e2eef]" name="tearDown" is-config="true" duration-ms="727" started-at="2018-09-29T02:08:26Z" finished-at="2018-09-29T02:08:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.LoginTests@366e2eef]" name="setup" is-config="true" duration-ms="5767" started-at="2018-09-29T02:08:27Z" finished-at="2018-09-29T02:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="shouldNotLoginWithInvalidCredentials()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.LoginTests@366e2eef]" name="shouldNotLoginWithInvalidCredentials" duration-ms="838" started-at="2018-09-29T02:08:33Z" finished-at="2018-09-29T02:08:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNotLoginWithInvalidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.LoginTests@366e2eef]" name="tearDown" is-config="true" duration-ms="660" started-at="2018-09-29T02:08:34Z" finished-at="2018-09-29T02:08:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mobiquityinc.cafetownsend.tests.LoginTests -->
+      <class name="com.mobiquityinc.cafetownsend.tests.EditEmployeesTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.EditEmployeesTests@67b6d4ae]" name="setup" is-config="true" duration-ms="5976" started-at="2018-09-29T02:06:49Z" finished-at="2018-09-29T02:06:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="shouldUpdateEmployeesDataSuccessfully()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.EditEmployeesTests@67b6d4ae]" name="shouldUpdateEmployeesDataSuccessfully" duration-ms="11289" started-at="2018-09-29T02:06:55Z" finished-at="2018-09-29T02:07:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldUpdateEmployeesDataSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.EditEmployeesTests@67b6d4ae]" name="tearDown" is-config="true" duration-ms="696" started-at="2018-09-29T02:07:06Z" finished-at="2018-09-29T02:07:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.EditEmployeesTests@67b6d4ae]" name="setup" is-config="true" duration-ms="6577" started-at="2018-09-29T02:07:07Z" finished-at="2018-09-29T02:07:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="shouldnotUpdateEmployeesWithInvalidStartDate()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.EditEmployeesTests@67b6d4ae]" name="shouldnotUpdateEmployeesWithInvalidStartDate" duration-ms="43323" started-at="2018-09-29T02:07:13Z" finished-at="2018-09-29T02:07:56Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for alert to be present (tried for 40 second(s) with 500 milliseconds interval)Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'System info: host: 'KROSHDY-LT-9852', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\KHALED~1.ROU\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}Session ID: 0be17e53e7fe07d4c8aaaf0674486c37]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 40 second(s) with 500 milliseconds interval)Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'System info: host: 'KROSHDY-LT-9852', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\KHALED~1.ROU\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}Session ID: 0be17e53e7fe07d4c8aaaf0674486c37at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)at com.mobiquityinc.cafetownsend.utilities.Utilities.isAlertApperared(Utilities.java:44)at com.mobiquityinc.cafetownsend.pages.EditEmployeePage.getAlertText(EditEmployeePage.java:81)at com.mobiquityinc.cafetownsend.tests.EditEmployeesTests.shouldnotUpdateEmployeesWithInvalidStartDate(EditEmployeesTests.java:53)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldnotUpdateEmployeesWithInvalidStartDate -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.EditEmployeesTests@67b6d4ae]" name="tearDown" is-config="true" duration-ms="648" started-at="2018-09-29T02:07:56Z" finished-at="2018-09-29T02:07:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mobiquityinc.cafetownsend.tests.EditEmployeesTests -->
+      <class name="com.mobiquityinc.cafetownsend.tests.EmployeesDataTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.EmployeesDataTests@34b7bfc0]" name="setup" is-config="true" duration-ms="5414" started-at="2018-09-29T02:07:57Z" finished-at="2018-09-29T02:08:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="shouldTheApplicationGoToHomePageAfterSelectingBackButton()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.EmployeesDataTests@34b7bfc0]" name="shouldTheApplicationGoToHomePageAfterSelectingBackButton" duration-ms="8913" started-at="2018-09-29T02:08:03Z" finished-at="2018-09-29T02:08:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldTheApplicationGoToHomePageAfterSelectingBackButton -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.EmployeesDataTests@34b7bfc0]" name="tearDown" is-config="true" duration-ms="638" started-at="2018-09-29T02:08:11Z" finished-at="2018-09-29T02:08:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.EmployeesDataTests@34b7bfc0]" name="setup" is-config="true" duration-ms="5380" started-at="2018-09-29T02:08:12Z" finished-at="2018-09-29T02:08:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="shouldTheDataOfTheEmployeeIsShownCorrectly()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.EmployeesDataTests@34b7bfc0]" name="shouldTheDataOfTheEmployeeIsShownCorrectly" duration-ms="2254" started-at="2018-09-29T02:08:17Z" finished-at="2018-09-29T02:08:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldTheDataOfTheEmployeeIsShownCorrectly -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.EmployeesDataTests@34b7bfc0]" name="tearDown" is-config="true" duration-ms="679" started-at="2018-09-29T02:08:20Z" finished-at="2018-09-29T02:08:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mobiquityinc.cafetownsend.tests.EmployeesDataTests -->
+      <class name="com.mobiquityinc.cafetownsend.tests.LogoutTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.LogoutTests@6df97b55]" name="setup" is-config="true" duration-ms="5772" started-at="2018-09-29T02:08:34Z" finished-at="2018-09-29T02:08:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="shouldLogoutSuccessfully()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.LogoutTests@6df97b55]" name="shouldLogoutSuccessfully" duration-ms="403" started-at="2018-09-29T02:08:40Z" finished-at="2018-09-29T02:08:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldLogoutSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.LogoutTests@6df97b55]" name="tearDown" is-config="true" duration-ms="847" started-at="2018-09-29T02:08:41Z" finished-at="2018-09-29T02:08:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mobiquityinc.cafetownsend.tests.LogoutTests -->
+      <class name="com.mobiquityinc.cafetownsend.tests.CreateEmployeesTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.CreateEmployeesTests@617c74e5]" name="setup" is-config="true" duration-ms="8755" started-at="2018-09-29T02:05:11Z" finished-at="2018-09-29T02:05:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="shouldCancelAddingNewEmployee()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.CreateEmployeesTests@617c74e5]" name="shouldCancelAddingNewEmployee" duration-ms="15522" started-at="2018-09-29T02:05:19Z" finished-at="2018-09-29T02:05:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldCancelAddingNewEmployee -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.CreateEmployeesTests@617c74e5]" name="tearDown" is-config="true" duration-ms="663" started-at="2018-09-29T02:05:35Z" finished-at="2018-09-29T02:05:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.CreateEmployeesTests@617c74e5]" name="setup" is-config="true" duration-ms="6467" started-at="2018-09-29T02:05:35Z" finished-at="2018-09-29T02:05:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="shouldCreateNewEmployeeSuccessfully()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.CreateEmployeesTests@617c74e5]" name="shouldCreateNewEmployeeSuccessfully" duration-ms="12341" started-at="2018-09-29T02:05:42Z" finished-at="2018-09-29T02:05:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldCreateNewEmployeeSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.CreateEmployeesTests@617c74e5]" name="tearDown" is-config="true" duration-ms="788" started-at="2018-09-29T02:05:54Z" finished-at="2018-09-29T02:05:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.CreateEmployeesTests@617c74e5]" name="setup" is-config="true" duration-ms="6794" started-at="2018-09-29T02:05:55Z" finished-at="2018-09-29T02:06:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="shouldnotAddEmployeeWithInvalidDateFormat()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.CreateEmployeesTests@617c74e5]" name="shouldnotAddEmployeeWithInvalidDateFormat" duration-ms="2629" started-at="2018-09-29T02:06:02Z" finished-at="2018-09-29T02:06:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldnotAddEmployeeWithInvalidDateFormat -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mobiquityinc.cafetownsend.tests.CreateEmployeesTests@617c74e5]" name="tearDown" is-config="true" duration-ms="645" started-at="2018-09-29T02:06:05Z" finished-at="2018-09-29T02:06:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mobiquityinc.cafetownsend.tests.CreateEmployeesTests -->
+    </test> <!-- Tests -->
+  </suite> <!-- SmokeTests -->
+</testng-results>

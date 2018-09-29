@@ -1,0 +1,7 @@
+com\mobiquityinc\cafetownsend\tests\DeleteEmployeesTests.class
+com\mobiquityinc\cafetownsend\tests\LogoutTests.class
+com\mobiquityinc\cafetownsend\tests\EmployeesDataTests.class
+com\mobiquityinc\cafetownsend\tests\EditEmployeesTests.class
+com\mobiquityinc\cafetownsend\tests\CreateEmployeesTests.class
+com\mobiquityinc\cafetownsend\baseTest\CafeTownsendBaseTest.class
+com\mobiquityinc\cafetownsend\tests\LoginTests.class

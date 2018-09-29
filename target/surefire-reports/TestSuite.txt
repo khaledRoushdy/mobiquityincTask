@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 211.718 s <<< FAILURE! - in TestSuite
+shouldDeleteAnExistingEmployeeFromHomePage(com.mobiquityinc.cafetownsend.tests.DeleteEmployeesTests)  Time elapsed: 12.453 s  <<< FAILURE!
+java.lang.AssertionError: The employee is not deleted successfully expected [327] but found [326]
+	at com.mobiquityinc.cafetownsend.tests.DeleteEmployeesTests.shouldDeleteAnExistingEmployeeFromHomePage(DeleteEmployeesTests.java:39)
+
+shouldnotUpdateEmployeesWithInvalidStartDate(com.mobiquityinc.cafetownsend.tests.EditEmployeesTests)  Time elapsed: 43.324 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for alert to be present (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'KROSHDY-LT-9852', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\KHALED~1.ROU\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 0be17e53e7fe07d4c8aaaf0674486c37
+	at com.mobiquityinc.cafetownsend.tests.EditEmployeesTests.shouldnotUpdateEmployeesWithInvalidStartDate(EditEmployeesTests.java:53)
+

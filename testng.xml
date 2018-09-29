@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SmokeTests">
+
+	<test name="Tests">
+		<classes>
+			<class name="com.mobiquityinc.cafetownsend.tests.CreateEmployeesTests"/>
+			<class name="com.mobiquityinc.cafetownsend.tests.DeleteEmployeesTests"/>
+			<class name="com.mobiquityinc.cafetownsend.tests.EditEmployeesTests"/>
+			<class name="com.mobiquityinc.cafetownsend.tests.EmployeesDataTests"/>
+			<class name= "com.mobiquityinc.cafetownsend.tests.LoginTests"/>
+			<class name= "com.mobiquityinc.cafetownsend.tests.LogoutTests"/>
+		</classes>
+	</test>
+
+</suite>

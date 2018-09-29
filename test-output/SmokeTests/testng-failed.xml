@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SmokeTests]">
+  <test thread-count="5" name="Tests(failed)">
+    <classes>
+      <class name="com.mobiquityinc.cafetownsend.tests.LoginTests">
+        <methods>
+          <include name="shouldLoginWithValidCredentials"/>
+          <include name="tearDown"/>
+          <include name="shouldNotLoginWithInvalidCredentials"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.mobiquityinc.cafetownsend.tests.LoginTests -->
+      <class name="com.mobiquityinc.cafetownsend.tests.CreateEmployeesTests">
+        <methods>
+          <include name="shouldCreateNewEmployeeSuccessfully"/>
+          <include name="shouldnotAddEmployeeWithInvalidDateFormat"/>
+          <include name="tearDown"/>
+          <include name="shouldCancelAddingNewEmployee"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.mobiquityinc.cafetownsend.tests.CreateEmployeesTests -->
+      <class name="com.mobiquityinc.cafetownsend.tests.EditEmployeesTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="shouldnotUpdateEmployeesWithInvalidStartDate"/>
+          <include name="shouldUpdateEmployeesDataSuccessfully"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.mobiquityinc.cafetownsend.tests.EditEmployeesTests -->
+      <class name="com.mobiquityinc.cafetownsend.tests.EmployeesDataTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="shouldTheDataOfTheEmployeeIsShownCorrectly"/>
+          <include name="shouldTheApplicationGoToHomePageAfterSelectingBackButton"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.mobiquityinc.cafetownsend.tests.EmployeesDataTests -->
+      <class name="com.mobiquityinc.cafetownsend.tests.DeleteEmployeesTests">
+        <methods>
+          <include name="shouldDeleteAnExistingEmployeeFromHomePage"/>
+          <include name="tearDown"/>
+          <include name="shouldDeleteAnExistingEmployeeFromEditingAnEmployee"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.mobiquityinc.cafetownsend.tests.DeleteEmployeesTests -->
+      <class name="com.mobiquityinc.cafetownsend.tests.LogoutTests">
+        <methods>
+          <include name="shouldLogoutSuccessfully"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.mobiquityinc.cafetownsend.tests.LogoutTests -->
+    </classes>
+  </test> <!-- Tests(failed) -->
+</suite> <!-- Failed suite [SmokeTests] -->
